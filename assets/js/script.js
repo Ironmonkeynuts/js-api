@@ -1,4 +1,3 @@
-import { showMessage } from 'react-native-flash-message';
 const API_KEY = "oe8X8rq307uJHGGnH9tgWCNBBlc";
 const API_URL = "https://ci-jshint.herokuapp.com/api";
 const resultsModal = new bootstrap.Modal(document.getElementById("resultsModal"));
