@@ -14,6 +14,14 @@ async function postForm(e) {
         },
         body: form,
     });
+
+    const data = await response.json();
+
+    if (response.ok) {
+        console.log(data);
+    } else {
+        throw new Error(data.error.code);
+    }
 }
 
 async function getStatus(e) {
